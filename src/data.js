@@ -1,6 +1,5 @@
 const data = {
     categories: [
-        'Any',
         'Programming',
         'Miscellaneous',
         'Dark',
@@ -8,7 +7,7 @@ const data = {
         'Spooky',
         'Christmas'
     ],
-    
+
     blacklist: [
         'nsfw',
         'religious',
@@ -16,7 +15,11 @@ const data = {
         'racist',
         'sexist',
         'explicit'
-    ]
-}
+    ],
+
+    checkedCategories: [],
+
+    checkedBlacklist: []
+};
 
 export default data;
