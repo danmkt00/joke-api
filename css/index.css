@@ -9,4 +9,47 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #565454;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 20px;
+}
+
+.categories-container {
+    display: flex;
+    gap: 10px;
+}
+
+.blacklist-container {
+    display: flex;
+    gap: 10px;
+}
+
+#display {
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid;
+    width: 300px;
+    border-width: 2px;
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.6;
 }
